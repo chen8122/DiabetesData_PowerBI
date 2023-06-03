@@ -7,7 +7,7 @@ I led the data modeling and data cleaning in my team(9 teammates in total) using
 **Data modeling** improves performance, provides better organization, imporved collaboration, most importantly, it greatly increased the flexibility working in a team. We can change data source, add new tables or columns without changing the entire table. After modeling the original dataset into 11 relational tables, I focused on demographic KPI analysis, patients' medical history, medicine intake and the effects on lipid profile and cognitive decline. 
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/e0dbc041-4ec1-4017-8074-ed7a84384b1b)  
 
-**Data Cleaning**  took about 1/4 of the workload. Simply as _removing duplicates, filtering rows, merging data, transforming data types_, more advanced like _mapping description texts to scaled numbers, recaculating outfliers, replacing values according to column constrains_, even using Power Query's functional language 'M' to _pivot and transform abnormal values_. 
+**Data Cleaning**  took about 1/4 of the workload. Simply as _removing_ duplicates, _filtering_ rows, _merging_ data, _transforming_ data types, more advanced like _mapping_ description texts to scaled numbers, _recaculating_ outfliers, _replacing_ values according to column constrains, even using _Power Query's functional language_ 'M' to pivot and transform abnormal values. 
 - Example1: Mapping description texts to scaled numbers; Create new relational tables (One-to-Many Cardinality):   
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/ce4d6023-dc6f-4c98-9608-0a32d2047280)
 - Example2: Power Query M language to add new conditional column and transform abnormal values:  
