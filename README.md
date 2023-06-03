@@ -13,4 +13,13 @@ I led the data modeling and data cleaning in my team(9 teammates in total) using
 - Example2: Power Query M language to add new conditional column and transform abnormal values:  
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/5f8e35ce-7ed1-4566-a540-a794a0784fba)
 
+**KPI and Patient History Visulization**
+![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/73b8b947-a7dd-499e-a1e4-42ad9408d77c)  
+![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/3c64daeb-e7bb-4723-a431-f7855d648ea1)
+![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/79a69ce1-51c9-48c5-a2c3-f80eade71dbb)
+![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/022f70f4-a2a0-4457-8b34-d2c16100ef65)
+![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/97d436aa-1e6d-444d-9b2e-5ae0ebfc1502)
+
+
+
 
