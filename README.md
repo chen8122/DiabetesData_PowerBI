@@ -36,8 +36,8 @@ Based on their reported previous use and current use, I categorized them into fo
 ## Dashboard: Effects on Lipid Profile  
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/79a69ce1-51c9-48c5-a2c3-f80eade71dbb)  
 **Question**: Are patients' lipid profile differ much in DM and control group? Further more, do they differ much in mild cognitive declined group(failed <=2/10 cognitive tests) and cognitive declined group(failed >2/10 cognitive tests)?!  
-![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/e92c25a3-f5e4-4617-a3c1-eac23fbd0248)
-**Doubts**: Based on the research, diabetes patients tend to have higher triglycerides and LDL level and lower HDL. And abonormal lipid profile usually associate with an increased risk of cognitive decline. Higher Triglycerides and LDL, lower HDL are expected in DM and cognitive declined group. However, the results displayed here did not align with my anticipated outcome. 
+![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/e92c25a3-f5e4-4617-a3c1-eac23fbd0248)  
+**Doubts**: Based on the research, diabetes patients tend to have higher triglycerides and LDL level and lower HDL. And abonormal lipid profile usually associate with an increased risk of cognitive decline. Higher Triglycerides and LDL, lower HDL are expected in DM and cognitive declined group. However, the results displayed here did not align with my anticipated outcome.   
 **Problem Solving**: My team suspected, maybe patients were using medicine to control their particular medical condition. That's why the distingtion was not clear. So I loaded \_additional data source\_ and extracted these patients' medication usage information. The following two dashboards are done to reveal the hidden information beyond the origional dataset.  
 
 ## Dashboard: Medicine Intake
