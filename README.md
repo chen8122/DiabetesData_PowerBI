@@ -4,6 +4,7 @@ This dataset was collected as part of a prospective observational study to evalu
 
 ## My Responsibility  
 My role in the project was to lead the data modeling and data cleaning efforts using Power BI Query Editor, categorizing the dataset into different categories for improved organization and collaboration.  
+
 My analysis work primarily centered around demographic data and patients' medical history, leading to the creation of multiple interactive dashboards that effectively visualize the findings. Through these dashboards, I revealed insights on the relationships between diabetes and hypertension, changes in alcohol and tobacco use among diabetes patients, and the effects of diabetes and cognitive decline on lipid profiles. 
 Driven by a desire to unravel unexpected outcomes, I delved deeper into the analysis to explore the impact of medication intake on lipid profiles and cognitive decline. I proactively leveraged additional data sources to extract medication usage information. This allowed me to extract medication usage information and reveal hidden insights that went beyond the scope of the original dataset.  
 
