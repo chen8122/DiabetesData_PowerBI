@@ -12,9 +12,9 @@ I led the data modeling and data cleaning in my team(9 teammates in total) using
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/ce4d6023-dc6f-4c98-9608-0a32d2047280)
 - Example2: Power Query M language to add new conditional column and transform abnormal values:  
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/5f8e35ce-7ed1-4566-a540-a794a0784fba)
-**KPI and Patient History Visulization**  
-**Question**: individuals with diabetes are more likely to develop hypertension or the opposite?  
+**Dashboard: KPI and Patient History Visulization**  
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/73b8b947-a7dd-499e-a1e4-42ad9408d77c)  
+**Question**: individuals with diabetes are more likely to develop hypertension or the opposite?  
 **Insights**:   
 -Most patients started diagnosised diabetes around the age of 40 to 60: `DM Age = demographic[Age] - demographic[Diabetes Duration]`.  
 [CDC](https://www.healthline.com/health/type-2-diabetes-age-of-onset): Adults aged 45–64 receive the majority of new diabetes diagnoses in U.S.
@@ -22,9 +22,9 @@ I led the data modeling and data cleaning in my team(9 teammates in total) using
 -56% developed hypertension after diagnosed diabetes: 'DD to HTN? = IF(demographic[Diabetes Duration]- RELATED(patient_history[htn_years])>0, "Diabetes->Hypertension", IF(demographic[Diabetes Duration]- RELATED(patient_history[htn_years])<0, "Hypertension->Diabetes","Same Year"))'  
 [NIH](https://pubmed.ncbi.nlm.nih.gov/29556093/): Diabetes patients experience increased peripheral artery resistance caused by vascular remodeling and increased body fluid volume associated with insulin resistance.  
 
-**Patient History: Alcohol and Tabacco Use**  
-**Question**: Will diabetes patients tend to change their Alcohol and Tabacco use habit?  
+**Dashboard: Patient History: Alcohol and Tabacco Use**  
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/3c64daeb-e7bb-4723-a431-f7855d648ea1)  
+**Question**: Will diabetes patients tend to change their Alcohol and Tabacco use habit?  
 Based on their reported previous use and current use, I categorized them into four groups: never stop using, never use, start using and stop using.  
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/96380358-21ec-4259-86cc-4b94259db0ed)
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/e8845e17-9898-446b-9fbc-0265cc578c87)
@@ -41,8 +41,8 @@ Based on their reported previous use and current use, I categorized them into fo
 **Problem Solving**: My team suspected, maybe patients were using medicine to control their particular medical condition. That's why the distingtion was not clear. So I loaded \_additional data source\_ and extracted these patients' medication usage information. The following two dashboards are done to reveal the hidden information beyond the origional dataset.  
 
 **Medicine Intake**  
-**Question**: Did medicine intake mislead the lipid profile performance in diabetes patients and patients with cognitive decline?   
 ![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/022f70f4-a2a0-4457-8b34-d2c16100ef65)  
+**Question**: Did medicine intake mislead the lipid profile performance in diabetes patients and patients with cognitive decline?   
 **Insights**:
 -There are four categories: diabetes, hypertension and heart related, lipid, and cognitive. Most patients are taking lipid and diabetes related medicine. 11 of them are using insulin.  
 -Almost all diabetes patients are taking diabetes medicine, almost all hyperlipidemia patients are taking lipid medicine and all of hyptension patients are taking hypertension and heart related medicine.
@@ -50,8 +50,8 @@ Based on their reported previous use and current use, I categorized them into fo
 -For the patients who failed the most cognitive tests(cognitive scores == 4 or 5). Only one of them did not take any medicine. One patient even took 7 different kind of medicine.  
 
 **Medicine Effect on Lipid Profile and Cognitive Decline**  
+![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/97d436aa-1e6d-444d-9b2e-5ae0ebfc1502)  
 **Question**: Does medicine play an negtive role on cognitive decline? Should patients avoid taking lipid control medicine?  
-![image](https://github.com/chen8122/DiabetesData_PowerBI/assets/9794705/97d436aa-1e6d-444d-9b2e-5ae0ebfc1502)
 **Insights**:    
 -Group(CognitiveScore==0): Most of them do not use any lipid control medicine；Only one HDL slightly abnormal, other Lipid Profile all normal.  
 -Group(CognitiveScore==5): All of them are taking lipid control medicine; One LDL abnormal, 4 HDL slightly abnormal.  
