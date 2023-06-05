@@ -1,7 +1,4 @@
-# DiabetesData_PowerBI
-## About the Dataset  
-This dataset was collected as part of a prospective observational study to evaluate the effects of type 2 diabetes mellitus (DM) on cerebral vasoregulation, perfusion and functional outcomes, measured by blood flow responses to hypocapnia and hypercapnia, Valsalva maneuver, head-up tilt, and sit-to-stand test. The dataset comprises of observations from 69 diabetic and control participants (aged 55 to 75 years) with continuous measurements of cerebral blood flow using transcranial Doppler and MRI (magnetic resonance imaging), heart rate, blood pressure, and respiratory parameters, balance, walking, laboratory and retinopathy measures at baseline, and 41 subjects who completed the two-years of follow-up.   
-
+# DiabetesData_PowerBI  
 ## My Responsibility  
 My role in the project was to lead the data modeling and data cleaning efforts using Power BI Query Editor, categorizing the dataset into different categories for improved organization and collaboration.  
 
@@ -9,6 +6,9 @@ My analysis work primarily centered around demographic data and patients' medica
 Driven by a desire to unravel unexpected outcomes, I delved deeper into the analysis to explore the impact of medication intake on lipid profiles and cognitive decline. I proactively leveraged additional data sources to extract medication usage information. This allowed me to extract medication usage information and reveal hidden insights that went beyond the scope of the original dataset.  
 
 Overall, my work demonstrated a strong combination of **technical expertise in data modeling**, a dedication to **data accuracy and validity**, a talent for creating user-friendly **interactive dashboards**, and effective **problem-solving skills**.  
+
+## About the Dataset  
+This dataset was collected as part of a prospective observational study to evaluate the effects of type 2 diabetes mellitus (DM) on cerebral vasoregulation, perfusion and functional outcomes, measured by blood flow responses to hypocapnia and hypercapnia, Valsalva maneuver, head-up tilt, and sit-to-stand test. The dataset comprises of observations from 69 diabetic and control participants (aged 55 to 75 years) with continuous measurements of cerebral blood flow using transcranial Doppler and MRI (magnetic resonance imaging), heart rate, blood pressure, and respiratory parameters, balance, walking, laboratory and retinopathy measures at baseline, and 41 subjects who completed the two-years of follow-up.   
 
 ## Data modeling  
 I took the approach of refering the original consolidated dataset into various sub-tables such as demographics, medical history, medication, labs, blood pressure, MRI, ophthalmology, walking, and cognitive tests. To establish relationships between these sub-tables, I created a primary key called 'id' by combining the 'patientID' and 'visit' columns. This unique identifier allowed me to establish relationships or connections between the sub-tables, making them relational tables.  
