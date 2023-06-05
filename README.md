@@ -1,5 +1,5 @@
 # DiabetesData_PowerBI  
-## My Responsibility  
+## Overview    
 My role in the project was to lead the data modeling and data cleaning efforts using Power BI Query Editor, categorizing the dataset into different categories for improved organization and collaboration.  
 
 My analysis work primarily centered around demographic data and patients' medical history, leading to the creation of multiple interactive dashboards that effectively visualize the findings. Through these dashboards, I revealed insights on the relationships between diabetes and hypertension, changes in alcohol and tobacco use among diabetes patients, and the effects of diabetes and cognitive decline on lipid profiles. 
